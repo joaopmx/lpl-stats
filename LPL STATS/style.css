@@ -1,0 +1,83 @@
+body {
+  background: #25232c;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+/* cabeçalho da página*/
+
+.headerPrincipal {
+  background: rgba(21, 20, 24, 0.863);
+  padding: 0 0;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6);
+}
+
+.headerPrincipal-logo img {
+  width: 70%
+}
+
+.headerPrincipal-nav-link {
+  padding: 14px;
+  color: #d7d6d6;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.headerPrincipal-nav-link:hover {
+  border-bottom: 2px solid red;
+  font-weight: bold;
+}
+
+/* Conteúdo da página*/
+
+.ConteudoPrincipal {
+  margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.titulo {
+  text-align: center;
+  color: #d7d6d6;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.ConteudoPrincipal-times-lista {
+	height: 150px;
+	background-color: #17161b;
+	text-align: center;
+	transition: .3s;
+	position: relative;
+  border-radius: 8px;
+  padding: 1em 0 1em 0 ;
+
+}
+
+.ConteudoPrincipal-times-lista a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #d7d6d6;
+  display: block;
+	position: absolute;
+
+  width: 100%;
+  height: 100%;
+}
+
+.ConteudoPrincipal-times-lista a img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.ConteudoPrincipal-times-lista:hover { 
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6);
+
+}
